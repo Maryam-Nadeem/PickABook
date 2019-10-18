@@ -1,0 +1,270 @@
+#wrapper{
+	    height: 1500px;
+    background-color: white;
+    width: 1525px
+}
+#topMenu{
+	width: 1839;
+	height: 85px;
+	background-color: black;
+  margin-left: 0;
+  background-color: #7b3535;
+      margin-top: -10px;
+    margin-left: -10px;
+
+}
+#sideArea{
+    width: 300px;
+	height: 2100px;
+	background-color: #efe3e3;
+    float: left;
+    display: block;
+    margin-left: -10px;
+}
+#mainDiv1 {
+      padding-top: 10px;
+       width: 1525px;
+    height: 1500px;
+    background-color: #fff;
+}
+
+#mainDiv2 {
+       width: 1525px;
+    height: 1500px;
+    background-color: white;
+}
+#design table, th, td {
+  border: 2px solid blue;
+  border-collapse: collapse;
+  width: 10%;
+}
+
+}
+#mainDiv2 h2 {
+    font-style: italic;
+    font-size: xx-large;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin: 20;
+}
+#design .table{
+    width: 100%;
+
+  }
+}
+.table, th, td {
+  border:  solid blue;
+  border-collapse: collapse;
+}
+.table tr, td {
+  padding: 8px;
+  height: 65px;
+  
+}
+.table  tr,  th{
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    font-family: bold;
+    
+}
+.pageHeading{
+  text-align: center;
+  padding: 20px;
+      font-size: 40px;
+      color: #7b3535;
+}
+.gridViewItem{
+     display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.gridViewInfo{
+  font-weight: 300;
+  text-align: center;
+  padding: 5px 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 15px;
+  font-weight: bold; 
+}
+.gridViewItem a{
+      text-decoration: none;
+    color: black;
+}
+
+.entityInfo{
+  padding: 40px 0 10px 0;
+      display: inline-block;
+      width: 80%
+}
+.gridViewContainer{
+      margin-left: 300px;
+}
+
+.leftSection{
+ width: 30%;
+ float: left;
+ max-width: 350px;
+}
+.leftSection img{
+      width: 350px;
+    margin-left: 40px;
+    height: 500px;
+}
+.rightSection {
+  width: 40%;
+  float: left;
+  padding: 5px 10px 5px 40px;
+  box-sizing: border-box;
+  padding-left: 100px;
+  font-size: 20px;
+}
+.rightSection h2{
+    margin-top: 0px;
+}
+#searchtxt{
+margin-left: 30px;
+    width: 200px;
+    height: 30px;
+
+     background: transparent;
+    border: 0;
+    border-bottom: 3px solid #1c1b1b;
+}
+
+#logout, #seller,#buyer{
+  float: right;
+    height: 30px;
+    width: 150px;
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+        padding-top: 25px;
+}
+#logout:hover,
+ #seller:hover,
+ #buyer:hover{
+  color: #d78080;
+
+}
+#logout:active,
+#seller:active,
+#buyer:active  {
+
+  transform: translateY(4px);
+}
+#searchBooks{
+  display: inline-block;
+}
+
+/*.table-responsive{
+  border-color: black;
+  border: 1px solid;
+}*/
+
+#buttonsDiv{
+  padding-left: 0px;
+}
+#buttonsDiv button{
+  width: 200px;
+    height: 40px;
+    border-radius: 250px;
+    background-color: #f4dede;
+    border: 1px solid #3f2424;
+    font-size: 15px;
+}
+#pic{
+  padding-right: 40px;
+
+}
+#btn,
+#viewCart,
+#viewBooks,
+#addCart,
+#confirm{
+  width: 200px;
+    height: 40px;
+    border-radius: 250px;
+    background-color: #f4dede;
+   
+    border: 1px solid #3f2424;
+    font-size: 15px;
+        margin-left: 25px;
+          -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 5px #d78080;
+}
+#btn:hover,
+#viewCart:hover,
+#viewBooks:hover,
+#addCart:hover,
+#confirm:hover
+{
+  background-color: #f4dede;
+  color: #7b3535;
+  cursor: pointer;
+}
+#btn:active,
+#viewCart:active,
+#viewBooks:active,
+#addCart:active,
+#confirm:hover  {
+  box-shadow: 0 5px #d78080;
+  transform: translateY(4px);
+}
+.thumbnail:hover {
+    position:relative;
+    top:-5px;
+    left:-5px;
+    width:250px;
+    height:250px;
+    display:block;
+    z-index:999;
+}
+#searchhead
+{
+     font-size: 20px;
+    text-align: center;
+    margin-right: 40px;
+    color: #7b3535;
+}
+
+
+table {
+  border-collapse: collapse;
+    width: 80%;
+       
+}
+
+table, th, td {
+        margin-left: 50px;
+    text-align: center;
+  border: 2px solid black;
+  font-size: 20px;
+   margin-left: 120px;
+
+}
+th{
+    background-color: #f4dede;
+}
+
+
+th {
+    font-size: 25px;
+  height: 50px;
+  color: #7b3535;
+}
+
+.table-responsive{
+  padding-left: 250px;
+}
+#confirm{
+  width: 250px;
+  margin-left: 450px;
+}

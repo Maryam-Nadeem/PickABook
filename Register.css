@@ -1,0 +1,235 @@
+/*html,body{
+	padding:0;
+	margin:0;
+	height:100%;
+}*/
+
+#background{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/book3.jfif);
+    height: 750px;
+        margin-left: -7px;
+    margin-right: -7px;
+  
+   
+
+}
+
+#loginContainer *{
+	color: #fff;
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
+}
+
+#loginContainer{
+	width:80%;
+	margin:0 auto;
+    position: relative;
+    max-width: 1024px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #fff;
+}
+
+#inputContainer{
+	width:400px;
+	padding:40px;
+	float: left;
+	border-right:1px solid #999;
+        padding-right: 100px;
+        margin-left: -80px;
+
+}
+
+#inputContainer h2{
+	text-align: center;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"]{
+	display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid black;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+    color: black;
+}
+
+#inputContainer label{
+    color: #ce8989;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#inputContainer button{
+	border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 250px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 41px;
+    width: 75%;
+}
+
+#inputContainer button:hover {
+	cursor: pointer;
+}
+
+.hasAccountText span{
+	font-weight: bold;
+    font-size: 12px
+}
+
+.hasAccountText
+{
+	    text-align: center;
+	    cursor: pointer;
+}
+
+#registerForm,
+#loginForm{
+	display:none;
+}
+
+
+#loginText {
+      padding: 30px;
+       display: table-cell; 
+    }
+#loginText h1{
+   margin: 0px,10px;
+    font-size: 60px;
+    color: #7b3535;
+    font-family: sans-serif;
+    font-weight: bold;
+   
+}
+
+#loginText h2{
+  
+  font-weight: bold;
+    color: #9f4d4d;
+    font-size: 40px;
+    margin: 35px,0px;
+}
+#loginText h3{
+    font-weight:  bold;
+    color: #722929;}
+
+#loginText ul{
+    padding: 0px;
+}
+#loginText li{
+    padding: 7px;
+    font-size:20px;
+}
+
+#topMenu{
+    width: 1527px;
+    height: 85px;
+    background-color: black;
+  margin-left: 0;
+  background-color: #7b3535;
+      margin-top: -10px;
+    margin-left: -10px;
+
+}
+#home, #aboutus{
+  float: right;
+    height: 30px;
+    width: 150px;
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+        padding-top: 25px;
+}
+#home:hover,
+ #aboutus:hover{
+  color: #d78080;
+
+}
+#home:active,
+#aboutus:active  {
+
+  transform: translateY(4px);
+}
+/*#register,#login{
+    width: 200px;
+    height: 40px;
+    border-radius: 250px;
+    background-color: #f4dede;
+   
+    border: 1px solid #7b3535;
+    font-size: 15px;
+        margin-left: 25px;
+          -webkit-transition-duration: 0.4s; /* Safari */
+  /*transition-duration: 0.4s;
+  box-shadow: 0 5px #d78080;
+}
+#register:hover,
+#login:hover{
+  background-color: #f4dede;
+  color: #7b3535;
+  cursor: pointer;
+}
+#login:active,
+#register:active {
+  box-shadow: 0 5px #d78080;
+  transform: translateY(4px);
+}*/
+
+
+
+#login,#register{
+    width: 200px;
+    height: 40px;
+    border-radius: 250px;
+    background-color: #f4dede;
+    border: 1px solid #3f2424;
+    font-size: 15px;
+    margin-left: 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 5px #d78080;
+}
+#login:hover,
+#register:hover{
+  background-color: #f4dede;
+  color: #7b3535;
+  cursor: pointer;
+}
+#login:active ,
+#register:active {
+  box-shadow: 0 5px #d78080;
+  transform: translateY(4px);
+}

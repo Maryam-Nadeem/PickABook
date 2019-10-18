@@ -1,0 +1,99 @@
+#topMenu{
+    width: 1520;
+    height: 85px;
+    background-color: black;
+  margin-left: 0;
+  background-color: #7b3535;
+      margin-top: -10px;
+    margin-left: -10px;
+
+}
+
+#logout, #seller,#buyer{
+  float: right;
+    height: 30px;
+    width: 150px;
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+        padding-top: 25px;
+}
+#logout:hover,
+ #seller:hover,
+ #buyer:hover{
+  color: #d78080;
+
+}
+#logout:active,
+#seller:active,
+#buyer:active  {
+
+  transform: translateY(4px);
+}
+
+#sideArea{
+    width: 300px;
+	height: 1500px;
+	background-color: #efe3e3;
+    float: left;
+    display: block;
+    margin-left: -10px;
+}
+
+#getsearch{
+	float: right;
+	color:#black;
+	
+	    margin-left: 300px;
+
+	        width: 30%;
+ 
+    padding: 5px 10px 5px 40px;
+    box-sizing: border-box;
+        margin-top: -550px;
+            margin-right: 300px;
+            font-size: 20px;
+}
+#img{
+	
+}
+#addCart{
+  width: 250px;
+    height: 40px;
+    border-radius: 250px;
+    background-color: #f4dede;
+   
+    border: 1px solid #3f2424;
+    font-size: 15px;
+        margin-left: 300px;
+          -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 5px #d78080;
+}
+#viewBooks,#viewCart{
+	width: 200px;
+    height: 40px;
+    border-radius: 250px;
+    background-color: #f4dede;
+    border: 1px solid #3f2424;
+    font-size: 15px;
+    margin-left: 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 5px #d78080;
+}
+#addCart:hover,
+#viewBooks:hover,
+#viewCart:hover{
+  background-color: #f4dede;
+  color: #7b3535;
+  cursor: pointer;
+}
+#addCart:active ,
+#viewBooks:active,
+#viewCart:active {
+  box-shadow: 0 5px #d78080;
+  transform: translateY(4px);
+}

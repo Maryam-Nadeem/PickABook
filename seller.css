@@ -1,0 +1,203 @@
+html,body{
+	padding:0;
+	margin:0;
+	height:100%;
+}
+#wrapper{
+	    height: 734px;
+    background-color: white;
+    width: 1525px;
+}
+
+#topMenu{
+	width: 1525px;
+	height: 90px;
+	background-color:#7b3535 ;
+}
+
+
+#sideArea{
+    width: 325px;
+	height: 664px;
+	background-color: #efe3e3;
+    float: left;
+    display: block;
+        height: 2000px;
+}
+
+#mainDiv1 {
+    width: 1200px;
+    height: 664px;
+    background-color: white;
+    float: right;
+       background-image: url(../images/backpic.jpg) ;
+       background-position: center;
+    background-size: cover;
+}
+#bookDetails{
+	    padding: 80px;
+    width: 400px;
+	float: left;
+	 padding-top: 10px;
+    padding-left: 150px
+	
+}
+#bookDetails input[type="text"],
+#bookDetails input[type="file"]
+{
+	display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #a64f4f;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+#category{
+	display: block;
+    background-color: transparent;
+    border-radius:200px;
+    height: 35px;
+    width: 350px;
+}
+
+#bookDetails label{
+    color: #433d3de6;
+    font-size: 20px;
+    margin-top: 15px;
+
+
+}
+
+#bookDetails button
+{
+	border: 1px solid black;
+    background-color: #eee5db;
+    border-radius: 250px;
+    color: black;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 41px;
+    width: 75%;
+}
+#buttonsDiv{
+	 padding-top: 75px;
+    padding-left: 50px
+}
+
+#buttonsDiv button{
+	width: 200px;
+    height: 40px;
+    border-radius: 250px;
+    background-color: #f4dede;
+    border: 1px solid #3f2424;
+    font-size: 15px;
+}
+#logout, #seller,#buyer{
+    padding-top: 30px;
+	float: right;
+    height: 30px;
+    width: 150px;
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+}
+#mainDiv2{
+	width: 1200px;
+    height: 2000px;
+    background-color: #fff;
+    float: right;
+
+}
+
+table {
+  border-collapse: collapse;
+    width: 80%;
+       
+}
+
+table, th, td {
+        margin-left: 50px;
+    text-align: center;
+  border: 2px solid black;
+  font-size: 20px;
+   margin-left: 120px;
+
+}
+th{
+    background-color: #f4dede;
+}
+
+
+th {
+    font-size: 25px;
+  height: 50px;
+  color: #7b3535;
+}
+#logo{
+    padding-bottom: 50px;
+    background-color: transparent;
+     height: 85px;
+    width: 300px;
+}
+#viewBooks,#bookInfo,#submit{
+    width: 200px;
+    height: 40px;
+    border-radius: 250px;
+    background-color: #f4dede;
+   
+    border: 1px solid #3f2424;
+    font-size: 15px;
+        margin-left: 25px;
+          -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 5px #d78080;
+}
+#viewBooks:hover,
+#bookInfo:hover,
+#submit:hover{
+  background-color: #f4dede;
+  color: #7b3535;
+  cursor: pointer;
+}
+#viewBooks:active,
+#bookInfo:active,
+#button:active  {
+  box-shadow: 0 5px #d78080;
+  transform: translateY(4px);
+}
+#logout, #seller,#buyer{
+  float: right;
+    height: 30px;
+    width: 150px;
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+        padding-top: 25px;
+}
+#logout:hover,
+ #seller:hover,
+ #buyer:hover{
+  color: #d78080;
+
+}
+#logout:active,
+#seller:active,
+#buyer:active  {
+
+  transform: translateY(4px);
+}
+#bookhead{
+color: #7b3535;
+font-size: 40px;
+}
+#mybook{
+        margin-left: 500px;
+    color: #7b3535;
+}
